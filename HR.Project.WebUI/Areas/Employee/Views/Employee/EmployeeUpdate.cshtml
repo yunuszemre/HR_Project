@@ -1,0 +1,61 @@
+﻿@using HR.Project.Entities.Concrete;
+@model UserEntity
+@{
+    ViewData["Title"] = "EmployeeUpdate";
+    Layout = "_Layout";
+
+
+}
+
+<form asp-area="Employee" asp-controller="Employee" asp-action="EmployeeUpdate" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="@Model.Id" />
+
+    <div class="container rounded bg-white mt-5 mb-3">
+        <div class="row">
+            <div class="col-md-5 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                    <img class="rounded-circle mt-5" width="150px" src="~/@Model.ImageURL">
+                    <span class="font-weight-bold m-2">@Model.FirstName</span>
+                    <span class="text-black-50">@Model.Email</span>
+                    <span> </span>
+                </div>
+                <div class="mt-5 text-center">
+                    <div class="img-buttons">
+                        <i class="btn btn-primary mb-5" type="button"><i class="mdi mdi-delete"></i>Sil</i>
+                        <i class="btn btn-primary mb-5" id="upload">
+                            <i class="mdi mdi-camera">
+                                <input asp-for="@Model.ImageURL" name="file" id="pick" style="display: none" type="file" />
+                            </i>
+                            Ekle
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">@Model.FirstName @Model.LastName</h4>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6"><label class="labels">Adı</label><input type="text" class="form-control" placeholder="first name" asp-for="@Model.FirstName" disabled></div>
+                        <div class="col-md-6"><label class="labels">Soyadı</label><input type="text" class="form-control" placeholder="surname" asp-for="@Model.LastName" disabled></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">Telefon</label><input type="text" class="form-control" placeholder="enter phone number" asp-for="@Model.Phone"></div>
+                        <div class="col-md-12"><label class="labels">Adres</label><input type="text" class="form-control" placeholder="enter address line 1" asp-for="@Model.Address"></div>
+                    </div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="submit">Kaydet</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    document.getElementById("upload").onclick = function () {
+        document.getElementById("pick").click();
+    };
+</script>
+
+
+

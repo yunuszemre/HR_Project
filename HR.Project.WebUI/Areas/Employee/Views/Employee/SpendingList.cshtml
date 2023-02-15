@@ -1,0 +1,81 @@
+﻿@model List<Spending>
+@{
+    ViewData["Title"] = "SpendingList";
+    Layout = "_Layout";
+
+}
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="card-title">
+                <h3>Harcama Listesi</h3>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Tür</th>
+                            <th>İsim</th>
+                            <th>Tarih</th>
+                            <th>Tutar</th>
+                            <th>Para Birimi</th>
+                            <th>Açıklama</th>
+                            <th>Durumu</th>
+                            <th>Onay Durumu</th>
+                            <th>Cevaplanma Tarihi</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>@item.SpendingType</td>
+                                <td>@ViewBag.User.FirstName</td>
+                                <td>@item.SpendingDate.ToShortDateString()</td>
+                                <td>@item.SpendingAmount</td>
+                                <td>@item.SpendingCurrency</td>
+                                <td>@item.SpendingDescription</td>
+                                <td>
+                                    @{
+                                        if (item.ApprovalStatus == ApprovalStatus.Beklemede)
+                                        {
+                                            <label class="badge badge-info">@item.ApprovalStatus</label>
+                                        }
+                                        else if (item.ApprovalStatus == ApprovalStatus.Reddedildi)
+                                        {
+                                            <label class="badge badge-warning">@item.ApprovalStatus</label>
+                                        }
+                                        else if (item.ApprovalStatus == ApprovalStatus.Onaylandı)
+                                        {
+                                            <label class="badge badge-success">@item.ApprovalStatus</label>
+                                        }
+                                    }
+                                </td>
+
+                                <td>
+                                    @{
+                                        if (item.ApprovalStatus == ApprovalStatus.Beklemede)
+                                        {
+                                            <p> Talebiniz iletildi onay bekliyor </p>
+                                        }
+                                        else
+                                        {
+                                            <p> @item.ReplyDate.Value.ToShortDateString() </p>
+                                        }
+                                    }
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

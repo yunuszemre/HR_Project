@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "SpendingDocumentUpload";
+    Layout = "_Layout";
+
+}
+
+<form action="SpendingDocumentUpload" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="file">Dosya Seçin:</label>
+        <input type="file" id="file" name="file">
+    </div>
+    <div>
+        <button type="submit">Yükle</button>
+    </div>
+</form>
+
+

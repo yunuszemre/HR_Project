@@ -1,0 +1,96 @@
+﻿@using HR.Project.Entities.Concrete;
+@using HR.Project.Entities.Enum;
+
+@model List<AdvancePayment>
+
+@{
+    ViewData["Title"] = "AdvancePaymentList";
+
+}
+
+
+<div class="container-fluid">
+    <h1 class="text-lg-center">Avans Talepleri</h1>
+    <br />
+    <br />
+
+    <br />
+    <div class="card shadow mb-4">
+        <div class="card-body">
+
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+                    <thead>
+                        <tr>
+                            <th>Avans ID</th>
+                            <th>Talep Türü</th>
+                            <th>Talep Eden</th>
+                            <th>Talep Tarihi</th>
+                            <th>Para Birimi</th>
+                            <th>Talep Tutarı</th>
+                            <th>Onay Durumu</th>
+                            <th>Cevaplanma Tarihi</th>
+                            <th>Açıklama</th>
+                            <th>Durumu</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.RequestType</td>
+                                <td>@ViewBag.User.FirstName</td>
+                                <td>@item.RequestDate.ToShortDateString()</td>
+                                <td>@item.Currency</td>
+                                <td>@item.RequestAmount</td>
+                                @{
+                                    if (item.ApprovalStatus == ApprovalStatus.Beklemede)
+                                    {
+                                        <td class="bg-info">@item.ApprovalStatus</td>
+                                    }
+
+                                    else if (item.ApprovalStatus == ApprovalStatus.Reddedildi)
+                                    {
+                                        <td class="bg-danger">@item.ApprovalStatus</td>
+                                    }
+
+                                    else if (item.ApprovalStatus == ApprovalStatus.Onaylandı)
+                                    {
+                                        <td class="bg-success">@item.ApprovalStatus</td>
+                                    }
+                                }
+                                <td>
+                                    @{
+                                        if (item.ApprovalStatus == ApprovalStatus.Beklemede)
+                                        {
+                                            <p>Talebiniz iletildi onay bekliyor</p>
+                                        }
+                                        else
+                                        {
+                                            <p>
+                                                @item.ReplyDate.Value.ToShortDateString()
+                                            </p>
+
+                                        }
+                                    }
+                                </td>
+
+                                <td>@item.Description</td>
+                                <td>
+                                    <a asp-area="Admin" asp-controller="Admin" asp-action="AvansOnayla" asp-route-id="@item.Id" class="btn btn-success">Onayla</a>
+                                    <a asp-area="Admin" asp-controller="Admin" asp-action="AvansReddet" asp-route-id="@item.Id" class="btn btn-danger">Reddet</a>
+                                    <a asp-area="Admin" asp-controller="Admin" asp-action="AvansBeklet" asp-route-id="@item.Id" class="btn btn-info">Beklet</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+

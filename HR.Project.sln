@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Project.Entities", "HR.Project.Entities\HR.Project.Entities.csproj", "{3AEF8692-995C-4FEB-A007-167BC8A84293}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Project.DAL", "HR.Project.DAL\HR.Project.DAL.csproj", "{65959302-61F3-4C70-B5E1-CC5AA367D37D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Project.BL", "HR.Project.BL\HR.Project.BL.csproj", "{BA8C785F-ECDF-47A5-BE5B-497C529BD11B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Project.WebUI", "HR.Project.WebUI\HR.Project.WebUI.csproj", "{0E4E2152-11AA-4174-8FAA-7CE3AE9FD442}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AEF8692-995C-4FEB-A007-167BC8A84293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEF8692-995C-4FEB-A007-167BC8A84293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEF8692-995C-4FEB-A007-167BC8A84293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEF8692-995C-4FEB-A007-167BC8A84293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65959302-61F3-4C70-B5E1-CC5AA367D37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65959302-61F3-4C70-B5E1-CC5AA367D37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65959302-61F3-4C70-B5E1-CC5AA367D37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65959302-61F3-4C70-B5E1-CC5AA367D37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8C785F-ECDF-47A5-BE5B-497C529BD11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8C785F-ECDF-47A5-BE5B-497C529BD11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8C785F-ECDF-47A5-BE5B-497C529BD11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8C785F-ECDF-47A5-BE5B-497C529BD11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4E2152-11AA-4174-8FAA-7CE3AE9FD442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4E2152-11AA-4174-8FAA-7CE3AE9FD442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4E2152-11AA-4174-8FAA-7CE3AE9FD442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4E2152-11AA-4174-8FAA-7CE3AE9FD442}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {373F2E60-F815-4CE0-ABF9-9DEF67AACF73}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/frkeraslan
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HR.Project.BL\\HR.Project.BL.csproj
+		SccProjectName1 = HR.Project.BL
+		SccLocalPath1 = HR.Project.BL
+		SccProjectUniqueName2 = HR.Project.DAL\\HR.Project.DAL.csproj
+		SccProjectName2 = HR.Project.DAL
+		SccLocalPath2 = HR.Project.DAL
+		SccProjectUniqueName3 = HR.Project.Entities\\HR.Project.Entities.csproj
+		SccProjectName3 = HR.Project.Entities
+		SccLocalPath3 = HR.Project.Entities
+		SccProjectUniqueName4 = HR.Project.WebUI\\HR.Project.WebUI.csproj
+		SccProjectName4 = HR.Project.WebUI
+		SccLocalPath4 = HR.Project.WebUI
+	EndGlobalSection
+EndGlobal

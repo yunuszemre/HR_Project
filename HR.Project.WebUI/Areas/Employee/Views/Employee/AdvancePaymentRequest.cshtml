@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "AdvancePaymentRequest";
+    Layout = "_Layout";
+
+
+}
+
+@model AdvancePayment
+<div class="card-header">
+    <strong class="card-title">Avans Talep Etme</strong>
+</div>
+@{
+    if (TempData["success_message"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <span>@TempData["success_message"].ToString()</span>
+        </div>
+    }
+    else if (TempData["fail_message"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <span>@TempData["fail_message"].ToString()</span>
+        </div>
+    }
+}
+<div class="row">
+    <div class="offset col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-body">
+                    <div id="pay-invoice">
+                        <div class="card-body">
+                            <form asp-area="Employee" asp-controller="Employee" asp-action="AdvancePaymentRequest" method="post" novalidate="novalidate">
+
+                                <input type="hidden" asp-for="@Model.Id" />
+
+                                <div class="tab-content rounded-bottom">
+                                    <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-1272">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text bg-gradient-primary text-white">Talep Türü</label>
+                                                </div>
+                                                <select asp-for="RequestType" asp-items="Html.GetEnumSelectList<RequestType>()" class="form-control" id="exampleFormControlSelect3">
+                                                    <option selected>Talep türünü seçiniz.</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text bg-gradient-primary text-white">Para Birimi</label>
+                                                </div>
+                                                <select asp-for="Currency" asp-items="Html.GetEnumSelectList<Currency>()" class="form-control" id="exampleFormControlSelect2">
+                                                    <option selected>Para birimini seçiniz.</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-gradient-primary text-white">Tutar</span>
+                                                </div>
+                                                <input asp-for="RequestAmount" type="text" class="form-control" aria-label="nput-group-text">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-gradient-primary text-white">Açıklama</span>
+
+                                                </div>
+                                                <textarea asp-for="Description" placeholder="Avans talebinizi kısaca açıklayın.." class="form-control" aria-label="With textarea"></textarea>
+                                                <div class="input-group-append">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button type="submit" class="input-group lm-3 btn btn-gradient-success btn-fw">Avans Talep Et</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

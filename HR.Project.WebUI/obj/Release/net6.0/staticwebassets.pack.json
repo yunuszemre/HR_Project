@@ -1,0 +1,893 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\HR.Project.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HR.Project.WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\.gitignore",
+      "PackagePath": "staticwebassets\\Template\\.gitignore"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\Template\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\LICENSE",
+      "PackagePath": "staticwebassets\\Template"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\PSD\\Purple_dashboard_free.psd",
+      "PackagePath": "staticwebassets\\Template\\PSD\\Purple_dashboard_free.psd"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\README.md",
+      "PackagePath": "staticwebassets\\Template\\README.md"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Template\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\Template\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "PackagePath": "staticwebassets\\Template\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\dashboard\\circle.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\dashboard\\circle.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\dashboard\\circle.svg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\dashboard\\circle.svg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\dashboard\\img_1.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\dashboard\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\dashboard\\img_2.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\dashboard\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\dashboard\\img_3.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\dashboard\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\dashboard\\img_4.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces-clipart\\pic-1.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces-clipart\\pic-2.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces-clipart\\pic-3.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces-clipart\\pic-4.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\sprites\\blue.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\sprites\\blue.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\sprites\\dark.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\sprites\\dark.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\sprites\\flag.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\sprites\\flag.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\sprites\\green.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\sprites\\green.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\sprites\\jsgrid-icons.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\sprites\\jsgrid-icons.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\sprites\\red.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\sprites\\red.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\images\\sprites\\yellow.png",
+      "PackagePath": "staticwebassets\\Template\\assets\\images\\sprites\\yellow.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\misc.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\misc.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\todo.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\todo.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\js\\todolist.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_dashboard.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\_widget-grid.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\_widget-grid.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_preview.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_preview.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\components\\_todo-list.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\components\\_todo-list.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_background.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_background.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_popovers.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_text.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_text.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\mixins\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\mixins\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\Template\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\Template\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\gulp-tasks\\inject.js",
+      "PackagePath": "staticwebassets\\Template\\gulp-tasks\\inject.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\gulp-tasks\\serve.js",
+      "PackagePath": "staticwebassets\\Template\\gulp-tasks\\serve.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\gulp-tasks\\vendors.js",
+      "PackagePath": "staticwebassets\\Template\\gulp-tasks\\vendors.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\gulpfile.js",
+      "PackagePath": "staticwebassets\\Template\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\Template\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\index.html",
+      "PackagePath": "staticwebassets\\Template\\index.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\package.json",
+      "PackagePath": "staticwebassets\\Template\\package.json"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\charts\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\charts\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\samples\\blank-page.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\samples\\blank-page.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\samples\\error-404.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\samples\\error-404.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\samples\\error-500.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\samples\\error-500.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\Template\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\Template\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\Template\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\Template\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Template\\screenshot.jpg",
+      "PackagePath": "staticwebassets\\Template\\screenshot.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Uploads\\ganyotçu.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\ganyotçu.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Uploads\\sabri_abi.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\sabri_abi.jpg"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\Uploads\\özgür_ifade.png",
+      "PackagePath": "staticwebassets\\Uploads\\özgür_ifade.png"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.HR.Project.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.HR.Project.WebUI.props",
+      "PackagePath": "build\\HR.Project.WebUI.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HR.Project.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\HR.Project.WebUI.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.HR.Project.WebUI.props",
+      "PackagePath": "buildTransitive\\HR.Project.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

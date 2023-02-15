@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "İzin Talebi Oluştur";
+    Layout = "_Layout";
+}
+@model Permission
+
+<div class="card-header">
+    <strong class="card-title">İzin Talep Etme</strong>
+</div>
+@{
+    if (TempData["message"] == null)
+    {
+
+    }
+    else
+    {
+        <div class="alert alert-danger m-3" role="alert">
+            @TempData["message"]
+        </div>
+    }
+}
+
+<div class="row">
+    <div class="offset col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-body">
+                    <div id="pay-invoice">
+                        <div class="card-body">
+                            <form asp-area="Employee" asp-controller="Employee" asp-action="AvansTalebiGir" method="post" novalidate="novalidate">
+
+                                <input type="hidden" asp-for="@Model.Id" />
+
+                                <div class="tab-content rounded-bottom">
+                                    <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-1272">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text bg-gradient-primary text-white">İzin Türü</label>
+                                                </div>
+                                                <select asp-for="PermissionType" asp-items="Html.GetEnumSelectList<PermissionType>()" class="form-control" id="exampleFormControlSelect3">
+                                                    <option selected>İzin türünü seçiniz.</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-gradient-primary text-white">Başlangıç Tarihi</span>
+                                                </div>
+                                                <input asp-for="PermissionStartDate" type="date" class="form-control" aria-label="nput-group-text">
+                                                <div class="input-group-append">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-gradient-primary text-white">Bitiş Tarihi</span>
+                                                </div>
+                                                <input asp-for="PermissionEndDate" type="date" class="form-control" aria-label="nput-group-text">
+                                                <div class="input-group-append">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-gradient-primary text-white">Açıklama</span>
+
+                                                </div>
+                                                <textarea asp-for="Description" placeholder="İzin talebinizi kısaca açıklayın.." class="form-control" aria-label="With textarea"></textarea>
+                                                <div class="input-group-append">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button type="submit" class="input-group lm-3 btn btn-gradient-success btn-fw">İzin Talep Et</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

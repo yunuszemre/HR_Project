@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (string.IsNullOrEmpty(User.Identity.Name))
+{
+    <partial name="~/Areas/Login/Views/Login/Login.cshtml"></partial>
+}
+else
+{
+
+}
+
+

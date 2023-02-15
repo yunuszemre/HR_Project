@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "SpendingRequest";
+    Layout = "_Layout";
+
+}
+
+
+@model Spending
+
+<div class="card-header">
+    <strong class="card-title">Harcama Talep Etme</strong>
+</div>
+
+<div class="row">
+    <div class="offset col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-body">
+                    <div id="pay-invoice">
+                        <div class="card-body">
+                            <form asp-area="Employee" asp-controller="Employee" asp-action="AdvancePaymentRequest" method="post" novalidate="novalidate">
+
+                                <input type="hidden" asp-for="@Model.Id" />
+
+                                <div class="tab-content rounded-bottom">
+                                    <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-1272">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text bg-gradient-primary text-white">Harcama Türü</label>
+                                                </div>
+                                                <select asp-for="SpendingType" asp-items="Html.GetEnumSelectList<SpendingType>()" class="form-control" id="exampleFormControlSelect3">
+                                                    <option selected>Harcama türünü seçiniz.</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text bg-gradient-primary text-white">Para Birimi</label>
+                                                </div>
+                                                <select asp-for="SpendingCurrency" asp-items="Html.GetEnumSelectList<Currency>()" class="form-control" id="exampleFormControlSelect2">
+                                                    <option selected>Para birimini seçiniz.</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-gradient-primary text-white">Tutar</span>
+                                                </div>
+                                                <input asp-for="SpendingAmount" type="text" class="form-control" aria-label="nput-group-text">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-gradient-primary text-white">Açıklama</span>
+
+                                                </div>
+                                                <textarea asp-for="SpendingDescription" placeholder="Harcama talebinizi kısaca açıklayın.." class="form-control" aria-label="With textarea"></textarea>
+                                                <div class="input-group-append">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button type="submit" class="input-group lm-3 btn btn-gradient-success btn-fw">Harcama Talep Et</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
