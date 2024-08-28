@@ -1225,12 +1225,14 @@
       "HR.Project.DAL/1.0.0": {
         "dependencies": {
           "HR.Project.Entities": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.13",
           "Microsoft.EntityFrameworkCore": "6.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13"
         },
         "runtime": {
-          "HR.Project.DAL.dll": {}
+          "HR.Project.DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "HR.Project.DAL.dll": {}
@@ -1244,7 +1246,10 @@
           "X.PagedList.Mvc.Core": "8.4.5"
         },
         "runtime": {
-          "HR.Project.Entities.dll": {}
+          "HR.Project.Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "HR.Project.Entities.dll": {}

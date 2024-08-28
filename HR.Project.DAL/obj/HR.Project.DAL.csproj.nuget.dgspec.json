@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.DAL\\HR.Project.DAL.csproj": {}
+    "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.DAL\\HR.Project.DAL.csproj": {}
   },
   "projects": {
-    "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.DAL\\HR.Project.DAL.csproj": {
+    "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.DAL\\HR.Project.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.DAL\\HR.Project.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.DAL\\HR.Project.DAL.csproj",
         "projectName": "HR.Project.DAL",
-        "projectPath": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.DAL\\HR.Project.DAL.csproj",
-        "packagesPath": "C:\\Users\\Yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.DAL\\HR.Project.DAL.csproj",
+        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.Entities\\HR.Project.Entities.csproj": {
-                "projectPath": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.Entities\\HR.Project.Entities.csproj"
+              "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.Entities\\HR.Project.Entities.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.Entities\\HR.Project.Entities.csproj"
               }
             }
           }
@@ -38,16 +43,17 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[6.0.13, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -85,21 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.Entities\\HR.Project.Entities.csproj": {
+    "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.Entities\\HR.Project.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.Entities\\HR.Project.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.Entities\\HR.Project.Entities.csproj",
         "projectName": "HR.Project.Entities",
-        "projectPath": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.Entities\\HR.Project.Entities.csproj",
-        "packagesPath": "C:\\Users\\Yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\HR.Project-YunusEmre\\HR.Project.Yunus\\HR.Project.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.Entities\\HR.Project.Entities.csproj",
+        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre\\Source\\Repos\\HR_Project\\HR.Project.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,6 +117,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -119,6 +130,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -170,7 +186,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -21,7 +21,7 @@ namespace HR.Project.WebUI
 			builder.Services.AddScoped(typeof(IGenericService<>), typeof(BaseService<>));
 
             //builder.Services.AddDbContext<HRProjectContext>(options => options.UseSqlServer("Server=tcp:hr-project-hs6.database.windows.net,1433;Initial Catalog=HRProject;Persist Security Info=False;User ID=hrproject-master;Password=boostHS6;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
-            builder.Services.AddDbContext<HRProjectContext>(options => options.UseSqlServer("Server = DESKTOP - VA3Q2CE\\YUNUS; Database = HRDB; uid = sa; TrustServerCertificate = True; Trusted_Connection = True;"));
+            builder.Services.AddDbContext<HRProjectContext>(options => options.UseSqlServer("Server=localhost,1433;Database=master;User Id=sa;Password=Str0ngP@ssw0rd!;", c => c.MigrationsAssembly("HR.Project.WebUI")));
 
             
 

@@ -20,7 +20,7 @@ namespace HR.Project.WebUI.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            var user = _userService.GetById(3);
+            var user = _userService.GetById(1);
 
             return View(user);
 
@@ -34,7 +34,7 @@ namespace HR.Project.WebUI.Areas.Admin.Controllers
         public IActionResult AdvancePaymentList()
         {
             var avanslar = _paymentService.GetAll().Where(x => x.ApprovalStatus == ApprovalStatus.Beklemede);
-            ViewBag.User = _userService.GetById(3);
+            ViewBag.User = _userService.GetById(1);
             return View(avanslar);
         }
 
@@ -84,7 +84,7 @@ namespace HR.Project.WebUI.Areas.Admin.Controllers
         public IActionResult SpendingList()
         {
             var spendings = _spendingService.GetAll().Where(x => x.ApprovalStatus == ApprovalStatus.Beklemede);
-            ViewBag.User = _userService.GetById(3);
+            ViewBag.User = _userService.GetById(1);
             return View(spendings);
         }
 
